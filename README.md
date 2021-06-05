@@ -4,7 +4,7 @@ Simple flutter widget from Bootstrap v5 component, including responsive grid lay
 
 ## Getting Started
 
-![Alt text](Screenshot_1.png?raw=true "Screenshot Example")
+![Alt text](https://raw.githubusercontent.com/kholifanalfon/bsflutter/main/Screenshot_1.png "Screenshot Example")
 The best way to make responsive and catchy layout.
 
 ## Responsive Layout
