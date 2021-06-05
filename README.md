@@ -1,6 +1,6 @@
 # bs_flutter
 
-Simple widget from Bootstrap v5 component, including responsive grid layout with bootstrap grid system
+Simple flutter widget from Bootstrap v5 component, including responsive grid layout with bootstrap grid system
 
 ## Getting Started
 
