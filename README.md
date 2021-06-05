@@ -1,15 +1,35 @@
 # bs_flutter
 
-Bootstrap Component on Flutter
+Simple widget from Bootstrap v5 component, including responsive grid layout with bootstrap grid system
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+![Alt text](Screenshot_1.png?raw=true "Screenshot Example")
+The best way to make responsive and catchy layout.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Responsive Layout
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:bs_flutter/bs_flutter.dart';
+
+BsContainer(
+  child: BsRow(
+    children: [
+      BsCol(
+        margin: EdgeInsets.only(bottom: 10.0),
+        padding: EdgeInsets.only(left: 10.0),
+        sizes: ColSize.all(Col.col_12),
+        child: Container()
+      ),
+      BsCol(
+        margin: EdgeInsets.only(bottom: 10.0),
+        padding: EdgeInsets.only(left: 10.0),
+        sizes: ColSize.all(Col.col_12),
+        child: Container()
+      )
+    ]
+  )
+);
+```
 
